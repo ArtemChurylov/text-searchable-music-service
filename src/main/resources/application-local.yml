@@ -1,0 +1,7 @@
+spring:
+  kafka:
+    properties:
+      schema.registry.url: http://localhost:8081
+
+assembly-ai:
+  webhook-url: https://b893-2a02-a317-e347-7000-d8b-6f32-771d-169c.eu.ngrok.io/assembly-ai

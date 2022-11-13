@@ -1,0 +1,11 @@
+{
+    "namespace": "com.music.bot",
+    "type": "record",
+    "name": "AudioMetadata",
+    "fields": [
+        {"name": "id", "type": "string"},
+        {"name": "source",  "type": "string"},
+        {"name": "title", "type": "string"},
+        {"name": "author", "type": "string"}
+    ]
+}

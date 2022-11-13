@@ -1,0 +1,13 @@
+spring:
+  kafka:
+    consumer:
+      group-id: poll-music-metadata
+      enable-auto-commit: true
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: io.confluent.kafka.serializers.KafkaAvroDeserializer
+      properties:
+        topics: com.music.bot.MusicMetadata
+        specific.avro.reader: true
+
+assembly-ai:
+  authorization-token:
